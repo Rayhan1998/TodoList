@@ -9,7 +9,7 @@ body {
   height: 100vh;
 }
 
-.container {
+.contain {
   max-width: 400px;
   margin: 0 auto;
 }
@@ -19,5 +19,29 @@ body {
 
   height: auto;
 
-  background-color: red;
+  background-color: #edc7a9;
+  padding: 10px;
+}
+
+.banner {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.todo-inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addTodo {
+  padding: 5px;
+  border: 1px solid #363636;
+}
+
+.filterTodo {
+  padding: 5px;
+  border: 1px solid #363636;
+}
+input:focus {
+  outline: none;
 }
